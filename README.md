@@ -1,22 +1,10 @@
 ﻿
 # Trabalho Final da Disciplina de Microservices
 
-## Inicializar projeto
-
-```sh
-mvn clean install
-```
-
-## Executar a aplicação
-
-```sh
-mvn spring-boot:run
-```
-
 ## Dockerizar a aplicação
 
 ```sh
-./mvnw install dockerfile:build
+docker build -t springio/trabalhofinal .
 ```
 
 ## Executar 2 instancias da aplicação em containers
