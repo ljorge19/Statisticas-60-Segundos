@@ -4,7 +4,7 @@
 ## Dockerizar a aplicação
 
 ```sh
-docker build -t springio/mba-microservices-trabalho-final
+docker build -t springio/mba-microservices-trabalho-final .
 ```
 
 ## Executar 2 instancias da aplicação em containers
