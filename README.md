@@ -4,7 +4,7 @@
 ## Dockerizar a aplicação
 
 ```sh
-docker build -t springio/trabalhofinal .
+docker build -t springio/mba-microservices-trabalho-final
 ```
 
 ## Executar 2 instancias da aplicação em containers
@@ -12,8 +12,8 @@ docker build -t springio/trabalhofinal .
 Aplicações serão exeutadas nas portas 8080 e 9090
 
 ```sh
-docker run -p 8080:8080 -t springio/trabalho-final
-docker run -p 9090:8080 -t springio/trabalho-final
+docker run -p 8080:8080 -t springio/mba-microservices-trabalho-final
+docker run -p 9090:8080 -t springio/mba-microservices-trabalho-final
 ```
 
 ## Documentação da API
