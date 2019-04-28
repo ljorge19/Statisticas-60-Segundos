@@ -33,7 +33,7 @@ public class TrabalhoFinalApplicationTests {
 		mvc.perform(MockMvcRequestBuilders.post("/transactions")
 		.contentType(MediaType.APPLICATION_JSON)
         .content(mapper.writeValueAsString(transaction)))
-		.andExpect(MockMvcResultMatchers.status().isCreated());
+		.andExpect(MockMvcResultMatchers.status().isNoContent());
 	}
 	
 	@Test
